@@ -1,4 +1,24 @@
+
 body {
-    /* Your code here! */
-    background-color:#00b3e6 
-  }
+      background-image:url("../img/background.jpg");
+      background-repeat:no-repeat;
+  font-family: 'Barlow', sans-serif;
+}
+ .profile-picture{ 
+  width: 20%;
+  border-radius: 50%!important;
+  margin-left:50px;
+  margin-top: -6%;
+ }
+ .banner{background-color:#00228077
+  ;
+  margin-top: 0%;
+ }
+ .banner-text{color: rgb(255, 255, 255);
+  text-align: center;
+    font-size: 80px;
+  margin-top: 0%;}
+ .banner-subtitle{color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0%;}
