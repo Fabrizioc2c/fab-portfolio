@@ -17,9 +17,8 @@ a:hover {
 
 body {
   background-image:url("../img/background.jpg");
-  background-repeat:no-repeat;
   font-family: 'Barlow', sans-serif;
-  max-width: 1920px;
+  min-height: 100%;
   margin: auto;
 
 }
@@ -81,16 +80,4 @@ box-sizing: border-box;
 }
 .icon-picture{
  width: 30%;
-}
-.footer{
-  height: auto;
-  padding: 10px;
-}
-.icon-bar {
-  float: left;
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
