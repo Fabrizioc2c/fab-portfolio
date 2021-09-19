@@ -1,48 +1,96 @@
 
-body {
-      background-image:url("../img/background.jpg");
-      background-repeat:no-repeat;
-  font-family: 'Barlow', sans-serif;
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
 }
- .profile-picture{ 
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(4, 0, 255);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+body {
+  background-image:url("../img/background.jpg");
+  background-repeat:no-repeat;
+  font-family: 'Barlow', sans-serif;
+  max-width: 1920px;
+  margin: auto;
+
+}
+.profile-picture{
   width: 20%;
   border-radius: 50%!important;
   margin-left:50px;
   margin-top: -6%;
- }
- .banner{background-color:#00228077
-  ;
+}
+.banner{
+ background-color:#00228077 ;
   margin-top: 0%;
- }
- .banner-text{color: rgb(255, 255, 255);
+}
+.banner-text{
+ color: rgb(255, 255, 255);
   text-align: center;
-    font-size: 80px;
-  margin-top: 0%;}
- .banner-subtitle{color: rgb(255, 255, 255);
+  font-size: 80px;
+  margin-top: 0%;
+}
+.banner-subtitle{
+ color: rgb(255, 255, 255);
   text-align: center;
   font-size: 40px;
-  margin-top: 0%;}
-
-* {
-    box-sizing: border-box;
-  }
-  
-  
-  .column {
-    text-align: center;
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-    height: auto; 
-  }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-.icon-picture{width: 50%;}
-.row-2{color: rgb(255, 255, 255)
+  margin-top: 0%;
 }
 
-
+.row-2,.row-3{
+ background-color: rgba(255, 255, 255, 0.774);
+  text-align:left;
+  width: auto;
+  padding: 10px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  }
+.about{
+    background-color: rgba(255, 255, 255, 0.774);
+     text-align:left;
+     width: auto;
+     padding: 10px;
+     margin-top: 20px;
+     box-sizing: border-box;
+}
+.about-text{margin-right: 20px;
+margin-left:20px;
+box-sizing: border-box;
+}
+.column {
+  text-align: center;
+  float: left;
+  width: 33.33%;
+  height: auto;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.icon-picture{
+ width: 30%;
+}
+.footer{
+ background-color: rgba(0, 89, 255, 0.096);
+ text-align: center;
+  padding: 3px;
+  color: white;;
+}
+.icon-bar {
+  float: left;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
