@@ -20,13 +20,13 @@ body {
   font-family: 'Barlow', sans-serif;
   min-height: 100%;
   margin: auto;
-
 }
 .profile-picture{
   width: 20%;
   border-radius: 50%!important;
   margin-left:50px;
   margin-top: -10%;
+  padding:20px
 }
 .banner{
  background-color:#00228077 ;
@@ -47,22 +47,23 @@ body {
 .row-2,.row-3{
  background-color: rgba(255, 255, 255, 0.774);
   text-align:left;
-  width: auto;
-  padding: 10px;
-  margin-top: 20px;
   box-sizing: border-box;
+  width: 1200px;
+  margin: auto;
+  padding: 40px;
+  margin-top: 20px;
   }
 .about{
-    background-color: rgba(255, 255, 255, 0.774);
+    background-color: rgba(255, 255, 255, 0.863);
      text-align:left;
      width: auto;
-     padding: 10px;
      margin-top: 20px;
      box-sizing: border-box;
 }
 .about-text{margin-right: 20px;
 margin-left:20px;
 box-sizing: border-box;
+padding: 40px;
 }
 
 .fa-linkedin-square{color: darkblue;}
@@ -71,7 +72,7 @@ box-sizing: border-box;
   text-align: center;
   float: left;
   width: 33.33%;
-  height: auto;
+  height:auto;
 }
 .row:after {
   content: "";
@@ -79,5 +80,11 @@ box-sizing: border-box;
   clear: both;
 }
 .icon-picture{
- width: 30%;
+ width: 10%;
+}
+#logo { width: 20%;
+  border-radius: 50%!important;
+  margin-left:50px;
+  margin-top: -10%;
+  padding:20px
 }
