@@ -18,14 +18,13 @@ body {
 	font-family: 'Barlow', sans-serif;
 	min-height: 100%;
 	margin: auto;
-
 }
 .profile-picture{
 	width: 20%;
 	border-radius: 50%!important;
 	margin-left:50px;
 	margin-top: -10%;
-	padding:20px
+	padding:20px 
 }
 .banner{
 	background-color:#00228077 ;
@@ -61,12 +60,11 @@ body {
 	padding: 40px;
 	margin-top: 20px;
 }
-  .row-3:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
+.row-3:after {
+	content: "";
+	display: table;
+	clear: both;
+}
 .about{
 	background-color: rgba(255, 255, 255, 0.863);
 	text-align:left;
@@ -84,7 +82,8 @@ body {
 	color: darkblue;
 }
 .contact-me{
-	font-size: 22px
+	font-size: 22px;
+	color:rgb(0, 0, 0) 
 }
 .column {
 	text-align: center;
@@ -92,19 +91,16 @@ body {
 	width: 33.33%;
 	height:auto;
 }
-
-.column-3 ,.coulum-2 {
+.column-3 {
 	float: left;
 	width: 50%;
 	height:auto;
 }
-
 @media screen and (max-width: 600px) {
-  .column-2 , .column-3 , .column {
-    width:100%;
-  }
+	.column-2 , .column-3 , .column {
+		width:100%;
+   }
 }
-
 .row:after {
 	content: "";
 	display: table;
@@ -119,3 +115,12 @@ body {
 	width: 33.33%;
 	height:auto;
 }
+table, th, td {
+	background-color: rgba(100, 148, 237, 0.733);
+	margin-left: 20px;
+	padding: 10px;
+	border:1px solid rgb(0, 0, 0);
+}
+.description{margin-left: 10px;
+margin-right: 10px;}
+.title-table{margin-left: 30PX;}
