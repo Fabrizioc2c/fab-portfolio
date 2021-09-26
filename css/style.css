@@ -18,6 +18,7 @@ body {
 	font-family: 'Barlow', sans-serif;
 	min-height: 100%;
 	margin: auto;
+
 }
 .profile-picture{
 	width: 20%;
@@ -29,6 +30,7 @@ body {
 .banner{
 	background-color:#00228077 ;
 	margin-top: 0%;
+	width: auto;
 }
 .banner-text{
 	color: rgb(255, 255, 255);
@@ -46,14 +48,14 @@ body {
 	background-color: rgba(255, 255, 255, 0.774);
 	text-align:left;
 	box-sizing: border-box;
-	width: 1200px;
+	width: auto;
 	margin: auto;
 	padding: 40px;
 	margin-top: 20px;
 }
 .row-3{
 	float: left;
-	width: 100%;
+	width: auto;
 	background-color: rgba(255, 255, 255, 0.774);
 	margin: auto;
 	padding: 40px;
@@ -64,11 +66,6 @@ body {
     display: table;
     clear: both;
   }
-.column-3 ,.coulum-2 {
-	float: left;
-	width: 50%;
-	height:auto;
-}
 
 .about{
 	background-color: rgba(255, 255, 255, 0.863);
@@ -95,9 +92,16 @@ body {
 	width: 33.33%;
 	height:auto;
 }
+
+.column-3 ,.coulum-2 {
+	float: left;
+	width: 50%;
+	height:auto;
+}
+
 @media screen and (max-width: 600px) {
   .column-2 , .column-3 , .column {
-    width: 100%;
+    width:100%;
   }
 }
 
