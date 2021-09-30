@@ -172,5 +172,5 @@ table, th, td {
 		display: none;
 	}
 	.banner , .banner-subtitle , .banner-text {
-		background-color: initial;
+		background-color: rgba(245, 245, 245, 0);
 }}
