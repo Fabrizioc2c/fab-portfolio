@@ -21,7 +21,7 @@ a:hover {
 	text-align: left;
 	padding: 15px;
 	text-size-adjust: 25px;
-	width: 100%S;
+	width: 100%;
 }
 
 body {
@@ -43,8 +43,6 @@ body {
 .banner {
 	width: 100%;
 	background-color: #00228077;
-	margin-top: 0%;
-	margin: auto;
 }
 
 .banner-text {
@@ -52,7 +50,7 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: 60px;
-	margin-top: 0%;
+
 }
 
 .banner-subtitle {
@@ -60,7 +58,7 @@ body {
 	color: rgb(255, 255, 255);
 	text-align: center;
 	font-size: 30px;
-	margin-top: 0%;
+
 }
 
 .row-2 {
@@ -166,11 +164,12 @@ table, th, td {
 	margin-left: 30PX;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1385px) {
 	.column-2, .column-3, .column {
 		width: 100%;
 	}
 	.profile-picture {
 		display: none;
+
 	}
 }
